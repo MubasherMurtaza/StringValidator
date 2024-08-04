@@ -1,16 +1,16 @@
-Pod::Spec.new do |spec|
-
-  spec.name         = "StringValidator"
-  spec.version      = "1.0.0"
-  spec.summary      = "This is the best framework"
-  spec.description  = "Its short function for checking validation of string"
-  spec.homepage     = "https://github.com/MubasherMurtaza/StringValidator"
-  spec.license      = "MIT"
-  spec.author             = { "Mubasher Murtaza" => "mubashermurtaza@gmail.com" }
-  spec.platform     = :ios, "13.0"
-  spec.source       = { :git => "https://github.com/MubasherMurtaza/StringValidator.git", :tag => spec.version.to_s }
-  
-  spec.source_files  = "StringValidator/**/*.{swift}"
-  spec.swift_versions = "5.0"
-
+Pod::Spec.new do |s|
+  s.name         = 'StringValidator'
+  s.version      = '1.0.0'
+  s.summary      = 'A utility to validate strings for specific criteria.'
+  s.description  = <<-DESC
+                   StringValidator is a Swift framework designed to validate strings against a variety of criteria, ensuring they meet specified requirements such as no digits, special characters, etc.
+                   DESC
+  s.homepage     = 'https://github.com/MubasherMurtaza/StringValidator'
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
+  s.author       = { 'Mubasher Murtaza' => 'mubashermurtaza@gmail.com' }
+  s.source       = { :git => 'https://github.com/MubasherMurtaza/StringValidator.git', :tag => s.version.to_s }
+  s.platform     = :ios, '13.0'
+  s.swift_version = '5.0'
+  s.source_files  = 'StringValidator/**/*.swift'
 end
+
