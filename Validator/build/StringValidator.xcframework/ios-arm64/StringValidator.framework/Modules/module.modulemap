@@ -1,0 +1,11 @@
+framework module StringValidator {
+  umbrella header "StringValidator.h"
+
+  export *
+  module * { export * }
+}
+
+module StringValidator.Swift {
+  header "StringValidator-Swift.h"
+  requires objc
+}
