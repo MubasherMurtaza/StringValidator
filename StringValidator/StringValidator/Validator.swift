@@ -2,7 +2,7 @@
 //  Validator.swift
 //  StringValidator
 //
-//  Created by Mubasher Murtaza-Pc on 04/08/2024.
+//  Created by Mubasher Murtaza-Pc on 05/08/2024.
 //
 
 import Foundation
