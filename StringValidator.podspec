@@ -7,11 +7,12 @@ Pod::Spec.new do |s|
                    DESC
   s.homepage     = 'https://github.com/MubasherMurtaza/StringValidator'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  s.author       = { 'Your Name' => 'your_email@example.com' }
+  s.author       = { 'Mubassher Murtaza' => 'mubashermurtaza@gmail.com' }
   s.source       = { :git => 'https://github.com/MubasherMurtaza/StringValidator.git', :tag => s.version.to_s }
-  s.platform     = :ios, '11.0'
-  s.swift_version = '5.0'
   s.source_files  = 'StringValidator/**/*.{swift}'
+  s.platform     = :ios, '13.0'
+  s.swift_version = '5.0'
+  
 end
 
 
