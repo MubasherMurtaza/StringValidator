@@ -6,12 +6,16 @@
 //
 
 import UIKit
+import StringValidator
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        Validator.sayHello()
+        print(Validator.validString("Hello this is done with mercy of Allah!"))
     }
 
 

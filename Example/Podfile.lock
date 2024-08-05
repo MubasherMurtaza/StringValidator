@@ -1,0 +1,16 @@
+PODS:
+  - StringValidator (1.0.0)
+
+DEPENDENCIES:
+  - StringValidator (from `../StringValidator`)
+
+EXTERNAL SOURCES:
+  StringValidator:
+    :path: "../StringValidator"
+
+SPEC CHECKSUMS:
+  StringValidator: 056e552a11f884ad5d5383d73c67da8c1a27eac6
+
+PODFILE CHECKSUM: 17d904aefa4c4d34e58f23b7d3e887677e2e4b65
+
+COCOAPODS: 1.15.2
