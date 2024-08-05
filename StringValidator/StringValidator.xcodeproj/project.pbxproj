@@ -28,14 +28,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		577924C62C5FFCC20035161C /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				57EE2B4B2C5F21C800F039B3 /* Validator.swift */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
 		57EE2B372C5F217300F039B3 = {
 			isa = PBXGroup;
 			children = (
@@ -55,7 +47,7 @@
 		57EE2B432C5F217300F039B3 /* StringValidator */ = {
 			isa = PBXGroup;
 			children = (
-				577924C62C5FFCC20035161C /* Source */,
+				57EE2B4B2C5F21C800F039B3 /* Validator.swift */,
 				57EE2B442C5F217300F039B3 /* StringValidator.h */,
 			);
 			path = StringValidator;
