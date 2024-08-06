@@ -47,10 +47,18 @@
 		577924D52C609DE60035161C /* StringValidator */ = {
 			isa = PBXGroup;
 			children = (
+				57820FAD2C62268F00E8785D /* Classes */,
 				577924D62C609DE60035161C /* StringValidator.h */,
-				577924DD2C609E750035161C /* Validator.swift */,
 			);
 			path = StringValidator;
+			sourceTree = "<group>";
+		};
+		57820FAD2C62268F00E8785D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				577924DD2C609E750035161C /* Validator.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
