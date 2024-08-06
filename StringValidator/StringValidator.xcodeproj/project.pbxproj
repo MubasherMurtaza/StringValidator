@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		577924D72C609DE60035161C /* StringValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 577924D62C609DE60035161C /* StringValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		577924DE2C609E750035161C /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577924DD2C609E750035161C /* Validator.swift */; };
+		57820FAF2C62317100E8785D /* StringValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 57820FAE2C62317100E8785D /* StringValidator.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		577924D32C609DE60035161C /* StringValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StringValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		577924D62C609DE60035161C /* StringValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringValidator.h; sourceTree = "<group>"; };
 		577924DD2C609E750035161C /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		57820FAE2C62317100E8785D /* StringValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringValidator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				57820FAD2C62268F00E8785D /* Classes */,
-				577924D62C609DE60035161C /* StringValidator.h */,
 			);
 			path = StringValidator;
 			sourceTree = "<group>";
@@ -56,6 +55,7 @@
 		57820FAD2C62268F00E8785D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				57820FAE2C62317100E8785D /* StringValidator.h */,
 				577924DD2C609E750035161C /* Validator.swift */,
 			);
 			path = Classes;
@@ -68,7 +68,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				577924D72C609DE60035161C /* StringValidator.h in Headers */,
+				57820FAF2C62317100E8785D /* StringValidator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
